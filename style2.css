@@ -1,0 +1,33 @@
+.container__main {
+    background-color:white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header__box{
+    background-color: white;
+    width: 100%;
+    
+}
+
+.header__logo{
+    margin: 10px;
+}
+
+.blog{
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.contacto {
+    font-size: 16px;
+    color: #4a4a4a;
+}
+.title__box{
+    background-color: #3CDBC0;
+    height: 100%;
+}
+.main__title{
+    color: #FFFFFF;
+    
+}
