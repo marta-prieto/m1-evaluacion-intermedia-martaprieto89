@@ -1,0 +1,91 @@
+.body {
+    height: 100vh;
+    margin: 0;
+}
+
+.header__box {
+    background-color: white;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    padding: 10px;
+    height: 61px;
+    width: 115px;
+}
+
+.menu {
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.blog {
+    margin: 10px 10px 13px;
+}
+
+.contact {
+    margin: 10px 10px 13px;
+}
+
+.title__container {
+    background-color: #3CDBC0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__box {
+    width: 155px;
+}
+
+.title__name {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    height: 200px;
+}
+
+@media all and (min-width: 768px) {
+    .header__box {
+        height: 110px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header_logo {
+        margin: 20px 30px 20px;
+    }
+    .menu {
+        text-transform: uppercase;
+        margin: 0 30px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 16px;
+        color: #4a4a4a;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .title__name {
+        font-size: 40px;
+        color: #FFFFFF;
+        font-family: 'Rubik', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
